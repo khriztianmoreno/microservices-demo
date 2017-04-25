@@ -1,0 +1,21 @@
+{
+  "name": "micro-workshop",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "start-upload": "micro serviceUpload.js -p 49153",
+    "start-preview": "micro servicePreview.js -p 49154",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Moreno khriztianmoreno@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "instagram_js_filter": "^1.4.0",
+    "is-image": "^1.0.1",
+    "micro": "^7.3.2",
+    "micro-upload": "^1.0.0",
+    "mime-types": "^2.1.15",
+    "uuid": "^3.0.1"
+  }
+}

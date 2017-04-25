@@ -1,0 +1,4 @@
+export default {
+  SET_FILTER: 'SET_FILTER',
+  SET_UPLOAD_BUTTON: 'SET_UPLOAD_BUTTON',
+};

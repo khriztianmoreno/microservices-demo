@@ -1,0 +1,39 @@
+{
+  "name": "basicclient",
+  "version": "0.0.1",
+  "description": "Basic template for ReactJs",
+  "main": "index.js",
+  "author": "david",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --progress --colors --devtool eval-source --content-base src/ --history-api-fallback",
+    "build": "mkdir -p dist  && cp -r src/lib dist && cp src/index.html dist/index.html && webpack --progress --watch --colors"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.5.2",
+    "postcss-loader": "^1.3.3",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "toolbox-loader": "^0.0.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "history": "^4.6.1",
+    "material-ui": "^0.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-file-input": "^0.2.5",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1"
+  }
+}
