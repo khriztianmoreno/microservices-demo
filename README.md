@@ -51,6 +51,10 @@ $ curl -X POST -d "{\"image\": \"xxxxxx-xxxx-xxxx-xxxx-xxxxxx.jpg\", \"filter\":
 * **Cristian Moreno** - *FullStack JavaScript Developer* - [Github](https://github.com/khriztianmoreno)
 * **David Higuita** - *FullStack JavaScript Developer* - [Github](https://github.com/davidgit75)
 
+## Project Original
+
+* **Workshop Microservices Micro** - *MedellinJS* - [Github](https://github.com/coljs/workshop-microservices-micro)
+
 See also the list of [contributors](https://github.com/khriztianmoreno/microservices-demo/contributors) who participated in this project.
 
 ## License
