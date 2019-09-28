@@ -10,7 +10,7 @@
     "build": "mkdir -p dist  && cp -r src/lib dist && cp src/index.html dist/index.html && webpack --progress --watch --colors"
   },
   "devDependencies": {
-    "babel-core": "6.24.1",
+    "babel-core": "6.26.3",
     "babel-loader": "6.4.1",
     "babel-preset-latest": "6.24.1",
     "babel-preset-react": "6.24.1",
